@@ -1,0 +1,11 @@
+spring:
+  datasource:
+     url: jdbc:mysql://localhost:3306/WishHubApplication
+     driver-class-name: com.mysql.cj.jdbc.Driver
+     username: root
+     password: mohit@mysql14
+ 
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
